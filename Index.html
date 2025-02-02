@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile card (HNG First task)</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body>
+    <main>
+    
+     <div class="profile-card">
+        
+            <div class="profile-card-img">
+             <div class="profilePicture"><img src="Images/Tofy-picture.jpeg" alt="profile-card-img" data-testid="profilePicture"> </div>    
+            </div>       
+               
+         <div class="bio">
+            <h2 data-testid="fullName">Babatunde Oluwatofunmisin</h2>
+            <p data-testid="currentLocation">Ota, Ogun state</p>
+            <h3 data-testid="jobTitle">Frontend Developer</h3>
+            <p data-testid="shortBio"> A Graduate of Earth Science in the University of Olabisi Onabanjo University.
+                I have developed basic skills in HTML,Css and Javascript.I am also an entreprenuer in the snack business,
+            demonstrating a keen sense for business development and a passion for delivering quality products.
+            </p>   
+            
+        </div>
+        <ul class="social-media">
+            <li class="mail" data-testid="emailAddress"><a href="mailto:https://mail.google.com/mail?view=cm&fs=1&to=babatundeoluwatofunmisin@gmail.com" target="_blank" rel="noopener noreferrer"><img src="Images/mail-icon.png" alt="mail-icon"></a></li>
+            <li class="linked-in" data-testid="socialLinks"><a href="https://www.linkedin.com/in/tofunmi-esther-0aa2ba223?utm_source=share&utm_campaign=share_ via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer"><img src="Images/linkedin-icon.png" alt="linkedin-icon"></a></li>
+            <li class="github" data-testid="socialLinks"><a href="https://github.com/babstof" target="_blank" rel="noopener noreferrer" ><img src="Images/github-icon.png" alt="call-icon"></a></li>
+            <li class="clock"><img src="Images/clock-icon.png" alt="clock-icon"><span id="live-clock">Loading...</span></div>
+          
+        </ul>
+
+        <!-- Dark Mode Button -->
+        <button id="darkModeToggle">Toggle Dark Mode</button>
+
+
+    </div>
+    </main>
+    <script src="HNG.JS/script.js"></script>
+    
+
+</body>
+</html>
